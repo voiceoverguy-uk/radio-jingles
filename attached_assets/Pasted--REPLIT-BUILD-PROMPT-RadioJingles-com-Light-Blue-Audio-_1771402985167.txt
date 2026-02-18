@@ -1,0 +1,168 @@
+✅ REPLIT BUILD PROMPT — RadioJingles.com (Light / Blue / Audio-First)
+
+Build a modern, fast, responsive, SEO-friendly website for a UK radio jingle & commercial production company:
+
+Brand / Company Name: Radio Jingles Ltd
+Location: Torquay, England (Devon)
+Phone: 01803 322699
+Address: Unit 3, Marble Court, Business Park, Lymington Rd, Torquay TQ1 4FB
+Core message: Professional radio commercials, jingles and station idents since 1996. Audio-first site with lots of space to showcase MP3 demos.
+
+1) Tech Requirements
+	•	Build as a static site (plain HTML + CSS + JS) OR Next.js if you prefer, but keep it simple and fast.
+	•	Must be fully responsive (mobile-first).
+	•	Must be SEO-friendly (correct H1/H2 structure, meta title/description, Open Graph, Twitter cards).
+	•	Must be fast (lazy-load images, optimise layout, no heavy libraries unless necessary).
+	•	Use clean, modern typography (Google Font OK, e.g. Inter or Montserrat).
+	•	Add a simple sticky header with nav links (scroll to sections).
+
+2) Visual Design Requirements
+
+This is NOT dark like HalloweenVoice. Keep it light, bright, clean, with a professional audio/radio vibe.
+
+Colour palette:
+	•	Primary blue: #1f3c88
+	•	Accent sky blue: #2da9ff
+	•	Background: #f7f9fc
+	•	Text: #1e293b
+	•	Subtle borders: light grey
+
+Style notes:
+	•	White / off-white backgrounds
+	•	Rounded cards
+	•	Soft shadows (subtle)
+	•	Plenty of spacing and breathing room
+	•	Clean “SaaS-ish” layout, not a busy agency site
+
+3) Logo
+
+Create a new simple logo (SVG) in the header:
+	•	Wordmark: RadioJingles (or “Radio Jingles Ltd”)
+	•	Simple icon: small waveform / audio bars / microphone abstract
+	•	Flat style, no gradients
+	•	Use the same blues as the site
+	•	Provide the SVG inline in code so it displays sharply.
+
+4) Site Structure (One-Page Site)
+
+Build a single-page site with these sections (scroll-to anchors):
+
+A) HERO (top)
+	•	Large headline (H1):
+“Professional Radio Commercials & Jingles Since 1996”
+	•	Subheading:
+“From our Torquay studios, we produce voiced ads, jingles and station idents heard across UK radio.”
+	•	Two CTA buttons:
+	•	“Listen to Demos” (scrolls to Audio section)
+	•	“Call 01803 322699” (tel link)
+	•	Optional small trust line:
+“Community radio pricing available.”
+
+B) WHAT WE DO (Services)
+Create 6 service cards with icons:
+	•	Voiced Radio Ads
+	•	Advertising Jingles
+	•	Station Idents
+	•	Scriptwriting
+	•	Voice Talent
+	•	Full Campaign Production
+
+Short descriptions (1–2 lines each).
+
+C) AUDIO DEMOS (Most important section)
+Create an Audio Demos section with:
+	•	A grid of 6 audio demo cards
+	•	Each card includes:
+	•	Title (cleaned version of filename)
+	•	Small meta line (e.g., “Commercial Demo”)
+	•	Native HTML5 audio player with play/pause
+	•	A subtle “Download MP3” link (optional)
+
+IMPORTANT: The MP3 files will exist in:
+/public/audio/
+
+Use these exact filenames:
+	1.	Harpers Furniture - Summer Sale - MANY - 070616.mp3
+	2.	Crayford and Abs the smart choice 02-11-16.mp3
+	3.	ChoiceCarpets.mp3
+	4.	John Parker Fixings -We're the best - 091116.mp3
+	5.	Macmillan Cancer Support - Brighton Marathon - 180214.mp3
+	6.	Leslie Bike Shop.mp3
+
+Technical notes:
+	•	Handle spaces and apostrophes safely in URLs (encode URI properly).
+	•	Provide a data array in JS for these demos so it’s easy to add more later.
+	•	Include a short note under the section:
+“More demos available on request — call us.”
+
+D) STUDIO PHOTOS
+Create a photo section with 3–6 image placeholders (use generic placeholders for now):
+	•	Studio control room
+	•	Vocal booth
+	•	Mixing / production desk
+	•	Exterior (optional)
+
+Use a clean image grid. Include captions.
+Make sure images are lazy-loaded.
+
+E) ABOUT / TRUST
+Write a short about section emphasising:
+	•	Established since 1996
+	•	Torquay-based, serving UK-wide
+	•	In-house production workflow
+	•	Professional, broadcast-ready sound
+
+Add 2–3 trust bullets.
+
+F) COMMUNITY RADIO PRICING
+Create a highlighted “Community Radio Stations” section (light blue background card) using this improved copy:
+
+“Attention Community Radio Stations
+We offer special pricing for community radio advertising, including voiced commercials, jingles and station idents.
+Radio Jingles Ltd has been producing professional radio advertising since 1996.
+From scriptwriting to final production, our in-house team creates bespoke commercials using state-of-the-art studios and experienced voiceovers to deliver a truly professional sound.”
+
+Add CTA button: “Call 01803 322699”.
+
+G) CONTACT
+Create a clean contact section with:
+	•	Call button (tel)
+	•	Address block
+	•	Google map embed (Torquay address)
+	•	Contact form that does NOT show email address:
+	•	Name
+	•	Email
+	•	Message
+	•	Button: “Send Message”
+Implementation options:
+	•	Prefer a lightweight backend endpoint /api/contact that emails the message to the owner (keep email hidden)
+	•	If backend is not possible, use a fallback mailto: but do not print email address visibly on the page.
+
+5) SEO + Social Sharing
+
+Add:
+	•	Meta title:
+“Radio Commercial & Jingle Production | Radio Jingles Ltd Torquay”
+	•	Meta description (150–160 chars):
+“Professional radio commercial, jingle and station ident production since 1996. Based in Torquay, producing broadcast-ready audio UK-wide.”
+	•	Open Graph tags:
+	•	og:title, og:description, og:image (use placeholder for now), og:type, og:url
+	•	Twitter card tags
+
+6) Accessibility + UX
+	•	Keyboard accessible nav
+	•	Good contrast
+	•	Buttons large enough on mobile
+	•	Smooth scrolling to sections
+	•	“Back to top” button (optional)
+
+7) Deliverables
+
+Output:
+	•	Full project code
+	•	Clear folder structure
+	•	README explaining:
+	•	where to put MP3s (/public/audio/)
+	•	where to put images (/public/images/)
+	•	how to add new demos (edit JS array)
+	•	how contact form works
