@@ -106,6 +106,19 @@ a:hover{text-decoration:underline}
 .form-status.success{display:block;background:#ecfdf5;color:#065f46;border:1px solid #a7f3d0}
 .form-status.error{display:block;background:#fef2f2;color:#991b1b;border:1px solid #fecaca}
 
+/* Contact CTA */
+.contact-cta{background:var(--bg);border-radius:var(--radius);padding:32px;border:1px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.contact-cta h3{font-size:1.2rem;font-weight:600;color:var(--primary);margin-bottom:12px}
+.contact-cta p{font-size:.95rem;color:#64748b;margin-bottom:24px;line-height:1.6}
+
+/* Team */
+.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.team-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:32px 20px;text-align:center;transition:transform .2s,box-shadow .2s}
+.team-card:hover{transform:translateY(-3px);box-shadow:var(--card-shadow)}
+.team-avatar{width:100px;height:100px;margin:0 auto 16px;background:var(--bg);border-radius:50%;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.team-avatar svg{width:60px;height:60px;color:#94a3b8}
+.team-card h3{font-size:1.05rem;font-weight:600;color:var(--primary)}
+
 /* Footer */
 .site-footer{background:var(--primary);color:#cbd5e1;padding:40px 0;text-align:center;font-size:.9rem}
 .site-footer a{color:var(--accent)}
@@ -141,6 +154,7 @@ a:hover{text-decoration:underline}
   .demos-grid{grid-template-columns:1fr}
   .services-grid{grid-template-columns:1fr}
   .community-section{padding:32px 24px}
+  .team-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media(max-width:400px){
   .demos-grid{grid-template-columns:1fr}

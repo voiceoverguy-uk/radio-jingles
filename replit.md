@@ -1,9 +1,10 @@
 # RadioJingles.com
 
 ## Overview
-Professional website for Radio Jingles Ltd, a UK radio jingle & commercial production company based in Torquay, Devon. Single-page site with audio demos, services, studio photos, YouTube video, and contact form.
+Professional website for Radio Jingles Ltd, a UK radio jingle & commercial production company based in Torquay, Devon. Single-page site with audio demos, services, studio photos, YouTube videos, meet the team, and contact section.
 
 ## Recent Changes
+- 2026-02-21: Added Meet the Team section, replaced contact form with mailto button, added 2nd YouTube video
 - 2026-02-21: Added YouTube video embed, Get Directions button, dynamic copyright year
 - 2026-02-18: Initial build - full single-page site with Express backend
 
@@ -30,10 +31,10 @@ Edit the `audioDemos` array in `public/js/main.js`. Each entry needs:
 - `file`: Exact filename of the MP3 in `public/audio/`
 
 ### YouTube Video
-The embedded YouTube video is in the `#video` section of `index.html`. To change the video, update the `src` attribute of the iframe to a new `https://www.youtube.com/embed/VIDEO_ID` URL.
+The embedded YouTube videos are in the `#video` section of `index.html`. To change a video, update the `src` attribute of the iframe to a new `https://www.youtube.com/embed/VIDEO_ID` URL.
 
-### Contact Form
-The contact form posts to `/api/contact` which logs submissions to the server console. No email address is exposed on the page. To add email sending, integrate a mail service in `server.js`.
+### Contact
+The contact section uses a mailto: link to Doc@radiojingles.com with a pre-filled subject line. No form or backend email service is used.
 
 **Note:** SendGrid integration was dismissed by user. If email sending is needed in future, either set up SendGrid or provide API credentials manually.
 
