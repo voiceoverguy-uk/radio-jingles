@@ -37,7 +37,13 @@ document.addEventListener("DOMContentLoaded", function () {
   initScrollHeader();
   initBackToTop();
   initContactForm();
+  initCopyrightYear();
 });
+
+function initCopyrightYear() {
+  var el = document.getElementById("copyright-year");
+  if (el) el.textContent = new Date().getFullYear();
+}
 
 function renderDemos() {
   const grid = document.getElementById("demos-grid");
