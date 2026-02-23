@@ -120,6 +120,16 @@ a:hover{text-decoration:underline}
 .team-avatar svg{width:60px;height:60px;color:#94a3b8}
 .team-card h3{font-size:1.05rem;font-weight:600;color:var(--primary)}
 
+/* Custom Jingles */
+.jingles-section{background:#f0f6ff}
+.jingles-content{max-width:860px;margin:0 auto}
+.jingles-lead{font-size:1.1rem;color:#475569;line-height:1.8;text-align:center;margin-bottom:40px}
+.jingles-features{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:36px}
+.jingle-feature{background:var(--white);padding:28px 24px;border-radius:var(--radius);box-shadow:var(--card-shadow)}
+.jingle-feature h3{font-size:1.05rem;font-weight:700;color:var(--primary);margin-bottom:10px}
+.jingle-feature p{font-size:.95rem;color:#64748b;line-height:1.7}
+.jingles-cta{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
 /* Torbay Radio */
 .torbay-radio-content{display:flex;align-items:center;gap:40px;max-width:860px;margin:0 auto}
 .torbay-radio-logo{flex-shrink:0}
@@ -163,6 +173,7 @@ a:hover{text-decoration:underline}
   .services-grid{grid-template-columns:1fr}
   .community-section{padding:32px 24px}
   .team-grid{grid-template-columns:repeat(2,1fr)}
+  .jingles-features{grid-template-columns:1fr}
   .torbay-radio-content{flex-direction:column;text-align:center}
   .torbay-radio-logo img{width:160px;height:160px}
 }
