@@ -4,6 +4,7 @@
 Professional website for Radio Jingles Ltd, a UK radio jingle & commercial production company based in Torquay, Devon. Single-page site with audio demos, services, studio photos, YouTube videos, meet the team, and contact section.
 
 ## Recent Changes
+- 2026-03-10: Redesigned team section with real photos, roles & bios; updated About copy; polished audio demo cards; added Listen Live button for Torbay Radio; animated nav hover underline
 - 2026-02-22: Added Radio Jingles banner to hero, added Torbay Radio section with logo, fixed Paula name in team
 - 2026-02-21: Added Meet the Team section, replaced contact form with mailto button, added 2nd YouTube video
 - 2026-02-21: Added YouTube video embed, Get Directions button, dynamic copyright year
