@@ -71,7 +71,7 @@ a:hover{text-decoration:underline}
 
 /* Audio Demos */
 .demos-section{position:relative;background:url('/images/radio-jingles-waveform-bg.jpg') center/cover no-repeat}
-.demos-section::before{content:"";position:absolute;inset:0;background:rgba(255,255,255,.92);z-index:1}
+.demos-section::before{content:"";position:absolute;inset:0;background:rgba(255,255,255,.72);z-index:1}
 .demos-section .container{position:relative;z-index:2}
 .demos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px}
 .demo-card{background:#fff;border:1px solid rgba(33,64,154,.08);border-radius:14px;padding:24px;box-shadow:0 10px 24px rgba(0,0,0,.08);transition:transform .22s ease,box-shadow .22s ease}
