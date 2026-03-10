@@ -122,7 +122,7 @@ function initLiveListen() {
       audio.load();
       reset();
     } else {
-      audio.src = "http://stream.cotswoldgrp.com:8012/sdr-dab";
+      audio.src = "/api/stream/torbay";
       audio.load();
       audio.play().then(function () {
         playing = true;

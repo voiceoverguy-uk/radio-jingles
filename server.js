@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const http = require('http');
 const app = express();
 
 app.use(express.json());
@@ -31,6 +32,19 @@ app.post('/api/contact', (req, res) => {
   console.log('----------------------------------');
 
   res.json({ success: true, message: 'Thank you for your message. We will be in touch shortly.' });
+});
+
+app.get('/api/stream/torbay', (req, res) => {
+  const streamReq = http.get('http://stream.cotswoldgrp.com:8012/sdr-dab', (streamRes) => {
+    res.set({
+      'Content-Type': streamRes.headers['content-type'] || 'audio/mpeg',
+      'Cache-Control': 'no-cache',
+      'Connection': 'keep-alive'
+    });
+    streamRes.pipe(res);
+  });
+  streamReq.on('error', () => { if (!res.headersSent) res.status(502).end(); });
+  req.on('close', () => { streamReq.destroy(); });
 });
 
 app.get('/{*path}', (req, res) => {
