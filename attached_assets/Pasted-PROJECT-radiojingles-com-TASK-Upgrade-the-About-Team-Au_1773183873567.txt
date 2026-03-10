@@ -1,0 +1,268 @@
+PROJECT: radiojingles.com
+
+TASK:
+Upgrade the About / Team / Audio Demos / Torbay Radio sections so the site feels more polished, modern and visually engaging, while keeping the existing clean light-blue style.
+
+IMPORTANT:
+- Keep the site light, bright and professional.
+- Use the current blue branding already on the site.
+- Do NOT over-design it.
+- Aim for subtle polish, not flashy nonsense.
+- Keep everything responsive.
+
+==================================================
+1. MEET THE TEAM SECTION – REDESIGN
+==================================================
+
+Upgrade the existing “Meet the Team” section into a modern card layout.
+
+REQUIREMENTS:
+- Replace placeholder profile icons with the supplied team images.
+- Add each person’s name, role, and a short 2-line bio.
+- Add a soft shadow, rounded corners, hover lift, and a subtle gradient overlay on the bottom of each image (similar in feel to the thumbnail overlays used on santaguy.co.uk / voiceofgod.co.uk, but lighter and more elegant).
+- Make the cards feel premium but still friendly.
+
+TEAM SECTION BACKGROUND:
+Use a very subtle pale blue background behind the whole team section so the white cards stand out slightly.
+
+Suggested section styling:
+.team-section {
+  background: #f4f7ff;
+  padding: 80px 0;
+}
+
+CARD STYLE:
+.card-team {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.10);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid rgba(33, 64, 154, 0.08);
+}
+
+.card-team:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.16);
+}
+
+IMAGE STYLE:
+.card-image {
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-image::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 90px;
+  background: linear-gradient(to top, rgba(0,0,0,0.30), rgba(0,0,0,0));
+  pointer-events: none;
+}
+
+TEXT AREA:
+.card-content {
+  padding: 20px 18px 22px;
+  text-align: center;
+}
+
+.card-content h3 {
+  margin: 0 0 6px;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  color: #244492;
+}
+
+.card-role {
+  font-weight: 600;
+  color: #4d6ba8;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.card-bio {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #56657f;
+  margin: 0;
+}
+
+GRID:
+- Desktop: 4 columns
+- Tablet: 2 columns
+- Mobile: 1 column
+- Keep spacing even and visually tidy
+
+TEAM CONTENT:
+Use these exact names, roles and bios:
+
+Doc
+Role: Founder
+Bio:
+The man who started it all (back in 1901… or thereabouts).
+Runs the studio, keeps the wheels turning, and still loves great radio.
+
+Paula
+Role: Producer & Vocalist
+Bio:
+Producer by day, singer by night.
+If there’s a jingle that needs a voice, Paula’s probably already recorded it.
+
+Denise
+Role: Creative Writer
+Bio:
+Denise was probably born holding a pen.
+Scriptwriter, author, broadcaster — and the creative brain behind many of our ads.
+
+Caz
+Role: Creative Writer
+Bio:
+Master’s degree in Creative Writing and proud member of the Torbay Guild of Artists.
+Writes ads by day, novels and radio shows by night.
+
+IMAGE FILENAMES:
+Use the uploaded team images for:
+- Doc
+- Paula
+- Denise
+- Caz
+
+==================================================
+2. ABOUT RADIO JINGLES – UPDATE THE COPY
+==================================================
+
+Replace the current About Radio Jingles text with the following refreshed version:
+
+Established in 1996, Radio Jingles Ltd has been producing professional radio commercials, jingles and station idents for nearly three decades.
+
+Based in Torquay, Devon, we work with radio stations, advertising agencies and businesses across the United Kingdom and Gibraltar, creating audio that captures attention and delivers results on-air.
+
+Our experienced scriptwriters craft adverts designed to highlight your brand and message clearly and creatively. Using professional broadcast equipment and industry-standard production tools, our in-house team ensures every commercial we deliver is polished, powerful and ready for airplay.
+
+Whether you need a single voiced commercial, a full radio campaign, or station branding, we have the expertise and facilities to deliver.
+
+Over the years we’ve produced thousands of commercials and promotions for brands including Coldseal Windows, Wilko, Mattressman, Trago Mills, Fostering Somerset and Horrible Histories, along with many independent businesses and radio stations across the UK.
+
+We’re incredibly proud of the work we produce and look forward to helping bring your next radio campaign to life.
+
+STYLE NOTES:
+- Keep the formatting readable with sensible paragraph spacing
+- Match the current site typography
+- This section can also sit on the same subtle pale blue background if it helps visual consistency
+
+==================================================
+3. AUDIO DEMOS – POLISH THE BOXES
+==================================================
+
+The current Audio Demo boxes look a bit flat. Improve them.
+
+REQUIREMENTS:
+- Keep the existing content and players
+- Add a soft shadow
+- Add rounded corners
+- Add a gentle hover effect
+- Add a white card background so they feel more premium
+- Keep everything clean and professional
+
+Suggested styling:
+.audio-card {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid rgba(33, 64, 154, 0.08);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.audio-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 34px rgba(0,0,0,0.13);
+}
+
+.audio-card-inner {
+  padding: 24px;
+}
+
+ALSO:
+- Increase vertical spacing a touch so the cards breathe
+- Keep the headings and subtext aligned neatly
+- Make sure the player doesn’t overflow on mobile
+- Make sure all cards end up the same height if possible
+
+==================================================
+4. TORBAY RADIO SECTION – ADD PLAY BUTTON
+==================================================
+
+In the “Behind the Sound of Torbay Radio” section, add a clean “Listen Live” play button near the text.
+
+STREAM URL:
+http://stream.cotswoldgrp.com:8012/sdr-dab
+
+REQUIREMENTS:
+- Add a nice prominent button with a play icon
+- Label: Listen Live
+- Clicking it should open/play the Torbay Radio stream
+- Open in a new tab if direct embedding is awkward
+- Keep it visually in line with the rest of the site
+
+BUTTON STYLE IDEA:
+- Blue gradient or solid deep blue
+- White text
+- Rounded pill/button shape
+- Small play triangle icon to the left
+- Soft shadow
+- Slight hover lift
+
+Suggested style:
+.live-listen-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #244492, #2f67d8);
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(36,68,146,0.22);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.live-listen-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(36,68,146,0.28);
+}
+
+OPTIONAL:
+If simple and reliable, create a small custom audio player instead of just linking out.
+But do NOT break the page trying to be clever.
+Reliable first, fancy second.
+
+==================================================
+5. GENERAL VISUAL CONSISTENCY
+==================================================
+
+Please make sure:
+- Section spacing feels consistent
+- Cards line up neatly
+- Background colours are subtle and tasteful
+- Mobile layout is clean
+- Nothing feels cramped
+- The new shadow treatment on team cards and audio cards feels like part of one design system
+
+==================================================
+6. DO NOT BREAK ANYTHING
+==================================================
+
+- Keep existing functionality intact
+- Do not remove existing sections unless replacing their exact content
+- Do not refactor unrelated files
+- Keep code tidy and easy to
