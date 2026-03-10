@@ -290,10 +290,12 @@
           <p>Radio Jingles power the on-air sound of <a href="https://www.southdevonradio.com" target="_blank" rel="noopener noreferrer"><strong>Torbay Radio (107.9FM)</strong></a> — the English Riviera's community radio station.</p>
           <p>Broadcasting across South Devon on FM and DAB, and worldwide online, Torbay Radio delivers local news, travel, weather and a brilliant music mix from the 60s to today — all driven by passionate local presenters.</p>
           <p>It's radio made for the community, by the community.</p>
-          <a href="http://stream.cotswoldgrp.com:8012/sdr-dab" target="_blank" rel="noopener noreferrer" class="live-listen-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-            Listen Live
-          </a>
+          <button type="button" class="live-listen-btn" id="live-listen-btn">
+            <svg class="icon-play" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <svg class="icon-stop" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="4" y="4" width="16" height="16" rx="2"/></svg>
+            <span>Listen Live</span>
+          </button>
+          <audio id="torbay-radio-audio" preload="none" src="http://stream.cotswoldgrp.com:8012/sdr-dab"></audio>
         </div>
       </div>
     </div>

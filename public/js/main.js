@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
   initBackToTop();
   initContactForm();
   initCopyrightYear();
+  initLiveListen();
 });
 
 function initCopyrightYear() {
@@ -95,6 +96,47 @@ function initBackToTop() {
   btn.addEventListener("click", function () {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+}
+
+function initLiveListen() {
+  var btn = document.getElementById("live-listen-btn");
+  var audio = document.getElementById("torbay-radio-audio");
+  if (!btn || !audio) return;
+  var iconPlay = btn.querySelector(".icon-play");
+  var iconStop = btn.querySelector(".icon-stop");
+  var label = btn.querySelector("span");
+  var playing = false;
+
+  function reset() {
+    playing = false;
+    btn.classList.remove("playing");
+    iconPlay.style.display = "";
+    iconStop.style.display = "none";
+    label.textContent = "Listen Live";
+  }
+
+  btn.addEventListener("click", function () {
+    if (playing) {
+      audio.pause();
+      audio.removeAttribute("src");
+      audio.load();
+      reset();
+    } else {
+      audio.src = "http://stream.cotswoldgrp.com:8012/sdr-dab";
+      audio.load();
+      audio.play().then(function () {
+        playing = true;
+        btn.classList.add("playing");
+        iconPlay.style.display = "none";
+        iconStop.style.display = "";
+        label.textContent = "Stop";
+      }).catch(function () {
+        reset();
+      });
+    }
+  });
+
+  audio.addEventListener("error", function () { reset(); });
 }
 
 function initContactForm() {

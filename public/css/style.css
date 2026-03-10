@@ -143,8 +143,10 @@ a:hover{text-decoration:underline}
 .torbay-radio-logo img{width:200px;height:200px;border-radius:var(--radius);box-shadow:var(--card-shadow)}
 .torbay-radio-text p{font-size:1.05rem;color:#475569;line-height:1.8;margin-bottom:16px}
 .torbay-radio-text p:last-of-type{margin-bottom:0;font-weight:600;color:var(--primary);font-style:italic}
-.live-listen-btn{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:999px;background:linear-gradient(135deg,#244492,#2f67d8);color:#fff;font-weight:600;text-decoration:none;box-shadow:0 10px 24px rgba(36,68,146,.22);transition:transform .22s ease,box-shadow .22s ease;margin-top:20px}
+.live-listen-btn{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:999px;background:linear-gradient(135deg,#244492,#2f67d8);color:#fff;font-weight:600;font-size:1rem;font-family:inherit;text-decoration:none;box-shadow:0 10px 24px rgba(36,68,146,.22);transition:transform .22s ease,box-shadow .22s ease;margin-top:20px;border:none;cursor:pointer}
 .live-listen-btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(36,68,146,.28);text-decoration:none;color:#fff}
+.live-listen-btn.playing{background:linear-gradient(135deg,#c0392b,#e74c3c)}
+#torbay-radio-audio{display:none}
 
 /* Footer */
 .site-footer{background:var(--primary);color:#cbd5e1;padding:40px 0;text-align:center;font-size:.9rem}
