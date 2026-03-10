@@ -1,0 +1,67 @@
+PROJECT: radiojingles.com
+
+TASK:
+Update the hero section copy to strengthen Radio Jingles’ positioning as the long-established original jingle production team, while keeping the tone positive, professional and human.
+
+GOAL:
+Make it clear that Radio Jingles has been creating radio commercials and jingles since 1996 using real human voices, real singers and real producers — without sounding negative or directly mentioning competitors.
+
+CHANGES REQUIRED:
+
+1. KEEP the existing main H1:
+Professional Radio Commercials
+& Jingles Since 1996
+
+2. KEEP the existing supporting paragraph, or refine lightly if needed:
+From our Torquay studios, we produce voiced ads, jingles and station idents heard across UK radio.
+
+3. ADD a new authority/positioning line directly underneath the supporting paragraph:
+The original UK radio jingle production team — real voices, real singers and real producers.
+
+4. ADD a small credibility line underneath the CTA buttons:
+Trusted by UK radio stations and advertisers for nearly 30 years.
+
+5. STYLE NOTES:
+- The new authority line should stand out slightly, but still feel classy and premium
+- Use the existing blue accent colour for emphasis if appropriate
+- Keep the text centred
+- Do not make the hero too crowded
+- Keep all spacing balanced on desktop and mobile
+
+SUGGESTED HTML STRUCTURE:
+- Keep the current H1
+- Keep the current paragraph
+- Add a new paragraph with a class like .hero-authority-line
+- Add a new small text line under the CTA buttons with a class like .hero-credibility-line
+
+SUGGESTED CSS:
+.hero-authority-line {
+  margin-top: 18px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 600;
+  color: #8fb7ff;
+}
+
+.hero-credibility-line {
+  margin-top: 18px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.78);
+}
+
+@media (max-width: 768px) {
+  .hero-authority-line {
+    font-size: 1rem;
+  }
+
+  .hero-credibility-line {
+    font-size: 0.9rem;
+  }
+}
+
+IMPORTANT:
+- Do not redesign the hero section
+- Do not change the buttons unless spacing needs slight adjustment
+- Keep the tone professional, friendly and confident
+- Do not mention AI in an aggressive or defensive way
