@@ -33,6 +33,9 @@ a:hover{text-decoration:underline}
 .nav-links a:hover,.nav-links a:focus{color:var(--accent);text-decoration:none}
 .nav-links a.nav-cta{background:var(--primary);color:#fff;padding:8px 20px;border-radius:999px;font-size:.85rem;font-weight:600;letter-spacing:.02em;transition:background .2s,transform .15s}
 .nav-links a.nav-cta::after{display:none}
+.nav-links a.nav-active{color:var(--accent)}
+.nav-links a.nav-active::after{transform:scaleX(1)}
+.site-header.scrolled .nav-links a.nav-active{color:var(--accent)}
 .nav-links a.nav-cta:hover,.nav-links a.nav-cta:focus{background:var(--accent);color:#fff;transform:translateY(-1px)}
 .site-header.scrolled .nav-links a.nav-cta{background:var(--primary);color:#fff}
 .site-header.scrolled .nav-links a.nav-cta:hover,.site-header.scrolled .nav-links a.nav-cta:focus{background:var(--accent);color:#fff}
