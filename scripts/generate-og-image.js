@@ -13,24 +13,21 @@ const svg = `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
   </defs>
   <rect width="${W}" height="${H}" fill="url(#overlay)"/>
 
-  <!-- Accent rule -->
-  <rect x="520" y="252" width="160" height="3" rx="2" fill="#2da9ff"/>
-
   <!-- Main headline -->
-  <text x="600" y="312" font-family="Arial Black, Arial, sans-serif" font-weight="900"
-        font-size="86" fill="#ffffff" text-anchor="middle" letter-spacing="-2">Radio Jingles</text>
+  <text x="600" y="290" font-family="Arial Black, Arial, sans-serif" font-weight="900"
+        font-size="108" fill="#ffffff" text-anchor="middle" letter-spacing="-2">Radio Jingles</text>
 
   <!-- Sub-line 1 -->
-  <text x="600" y="393" font-family="Arial, sans-serif" font-weight="400"
-        font-size="38" fill="#c8deff" text-anchor="middle" letter-spacing="1">Commercials &amp; Jingles</text>
+  <text x="600" y="385" font-family="Arial, sans-serif" font-weight="400"
+        font-size="52" fill="#c8deff" text-anchor="middle" letter-spacing="0">Commercials &amp; Jingles</text>
 
   <!-- Sub-line 2 -->
-  <text x="600" y="444" font-family="Arial, sans-serif" font-weight="400"
-        font-size="38" fill="#c8deff" text-anchor="middle" letter-spacing="1">Since 1996</text>
+  <text x="600" y="455" font-family="Arial, sans-serif" font-weight="400"
+        font-size="52" fill="#c8deff" text-anchor="middle" letter-spacing="0">Since 1996</text>
 
   <!-- Domain watermark -->
-  <text x="600" y="570" font-family="Arial, sans-serif" font-weight="600"
-        font-size="22" fill="rgba(255,255,255,0.45)" text-anchor="middle" letter-spacing="3">RADIOJINGLES.COM</text>
+  <text x="600" y="575" font-family="Arial, sans-serif" font-weight="600"
+        font-size="24" fill="rgba(255,255,255,0.40)" text-anchor="middle" letter-spacing="4">RADIOJINGLES.COM</text>
 </svg>`;
 
 async function generate() {
