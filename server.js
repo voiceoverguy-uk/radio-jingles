@@ -47,6 +47,14 @@ app.get('/api/stream/torbay', (req, res) => {
   req.on('close', () => { streamReq.destroy(); });
 });
 
+app.get('/jingles', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'jingles.html'));
+});
+
+app.get('/terms', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'terms.html'));
+});
+
 app.get('/{*path}', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
