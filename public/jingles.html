@@ -11,28 +11,80 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   <style>
-    .jingles-hero{position:relative;padding:120px 0 80px;text-align:center;background:url('/images/jingles-bg.jpeg') center/cover no-repeat;margin-top:64px}
-    .jingles-hero::before{content:"";position:absolute;inset:0;background:rgba(10,22,40,.72)}
-    .jingles-hero .container{position:relative;z-index:2}
-    .jingles-hero h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;color:#fff;margin-bottom:16px}
-    .jingles-hero p{color:rgba(255,255,255,.85);font-size:1.1rem;max-width:620px;margin:0 auto}
-    .jingles-page{padding:70px 0}
-    .jingles-page .container{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
-    .jingles-main h2{font-size:1.7rem;font-weight:700;color:var(--primary);margin-bottom:20px}
-    .jingles-main p{color:#475569;line-height:1.8;margin-bottom:16px;font-size:.97rem}
-    .jingles-types{display:flex;flex-direction:column;gap:28px}
-    .jingle-type h3{font-size:1.15rem;font-weight:700;color:var(--accent);margin-bottom:8px}
-    .jingle-type p{color:#475569;line-height:1.7;font-size:.95rem;margin:0}
-    .jingles-cta-bar{background:var(--primary);padding:56px 0;text-align:center}
-    .jingles-cta-bar h2{font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:12px}
-    .jingles-cta-bar p{color:rgba(255,255,255,.8);margin-bottom:28px;font-size:1rem}
-    .jingles-cta-bar .btn-group{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+    /* ── Hero ── */
+    .j-hero{position:relative;padding:130px 0 90px;text-align:center;background:url('/images/jingles-bg.jpeg') center/cover no-repeat;margin-top:64px}
+    .j-hero::before{content:"";position:absolute;inset:0;background:rgba(10,22,40,.74)}
+    .j-hero .container{position:relative;z-index:2}
+    .j-hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;color:#fff;margin-bottom:16px}
+    .j-hero p{color:rgba(255,255,255,.85);font-size:1.1rem;max-width:640px;margin:0 auto 32px}
+    .j-hero .btn-group{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
+    /* ── Stats bar ── */
+    .j-stats{background:var(--primary);padding:28px 0}
+    .j-stats .container{display:grid;grid-template-columns:repeat(3,1fr);gap:0;text-align:center}
+    .j-stat{padding:12px 20px;border-right:1px solid rgba(255,255,255,.15)}
+    .j-stat:last-child{border-right:none}
+    .j-stat strong{display:block;font-size:2rem;font-weight:800;color:#fff;line-height:1.1}
+    .j-stat span{font-size:.82rem;color:rgba(255,255,255,.7);letter-spacing:.05em;text-transform:uppercase;margin-top:4px;display:block}
+
+    /* ── Intro 2-col ── */
+    .j-intro{padding:72px 0;background:#fff}
+    .j-intro .container{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+    .j-intro-text h2{font-size:1.6rem;font-weight:700;color:var(--primary);margin-bottom:20px}
+    .j-intro-text p{color:#475569;line-height:1.8;font-size:.97rem;margin-bottom:14px}
+    .j-intro-text p:last-child{margin-bottom:0}
+    .j-types-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .j-type-card{background:#f0f4fb;border-radius:12px;padding:20px;border:1px solid #dde5f0;transition:box-shadow .2s,transform .2s}
+    .j-type-card:hover{box-shadow:0 8px 24px rgba(31,60,136,.12);transform:translateY(-3px)}
+    .j-type-card h3{font-size:.95rem;font-weight:700;color:var(--primary);margin-bottom:6px}
+    .j-type-card p{font-size:.85rem;color:#64748b;line-height:1.6;margin:0}
+    .j-type-icon{width:36px;height:36px;background:var(--primary);border-radius:8px;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+    .j-type-icon svg{color:#fff}
+
+    /* ── Pullquote ── */
+    .j-pullquote{background:var(--accent);padding:52px 0;text-align:center}
+    .j-pullquote blockquote{font-size:clamp(1.2rem,2.5vw,1.65rem);font-weight:700;color:#fff;max-width:820px;margin:0 auto;line-height:1.5;font-style:italic}
+    .j-pullquote blockquote::before{content:"\201C";font-size:3rem;line-height:0;vertical-align:-0.5rem;margin-right:6px;opacity:.6}
+    .j-pullquote blockquote::after{content:"\201D";font-size:3rem;line-height:0;vertical-align:-0.5rem;margin-left:6px;opacity:.6}
+
+    /* ── What we offer ── */
+    .j-offer{padding:72px 0;background:var(--bg)}
+    .j-offer h2{font-size:1.6rem;font-weight:700;color:var(--primary);text-align:center;margin-bottom:12px}
+    .j-offer .lead{text-align:center;color:#64748b;max-width:700px;margin:0 auto 48px;line-height:1.8;font-size:.97rem}
+    .j-offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:40px}
+    .j-offer-card{background:#fff;border-radius:14px;padding:28px;border:1px solid #dde5f0;box-shadow:0 4px 16px rgba(0,0,0,.05)}
+    .j-offer-card .icon{width:48px;height:48px;background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+    .j-offer-card .icon svg{color:#fff}
+    .j-offer-card h3{font-size:1rem;font-weight:700;color:var(--primary);margin-bottom:8px}
+    .j-offer-card p{font-size:.88rem;color:#64748b;line-height:1.7;margin:0}
+    .j-offer-body{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;margin-top:8px}
+    .j-offer-body-text h3{font-size:1.2rem;font-weight:700;color:var(--primary);margin-bottom:16px}
+    .j-offer-body-text p{color:#475569;line-height:1.8;font-size:.97rem;margin-bottom:14px}
+    .j-qualities{display:flex;flex-wrap:wrap;gap:10px}
+    .j-quality-pill{background:var(--primary);color:#fff;border-radius:999px;padding:8px 20px;font-size:.85rem;font-weight:600;letter-spacing:.02em}
+
+    /* ── CTA bar ── */
+    .j-cta{background:var(--primary);padding:60px 0;text-align:center}
+    .j-cta h2{font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:12px}
+    .j-cta p{color:rgba(255,255,255,.8);margin-bottom:28px}
+    .j-cta .btn-group{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
+    /* ── page back ── */
     .page-back{display:inline-flex;align-items:center;gap:8px;color:var(--primary);font-weight:500;font-size:.9rem;margin-bottom:36px;text-decoration:none}
     .page-back:hover{color:var(--accent)}
-    .page-back:hover svg{transform:translateX(-3px)}
     .page-back svg{transition:transform .2s}
-    @media(max-width:768px){
-      .jingles-page .container{grid-template-columns:1fr}
+    .page-back:hover svg{transform:translateX(-3px)}
+
+    /* ── Responsive ── */
+    @media(max-width:900px){
+      .j-intro .container,.j-offer-body{grid-template-columns:1fr}
+      .j-offer-grid{grid-template-columns:1fr 1fr}
+      .j-stats .container{grid-template-columns:1fr}
+      .j-stat{border-right:none;border-bottom:1px solid rgba(255,255,255,.15)}
+      .j-stat:last-child{border-bottom:none}
+    }
+    @media(max-width:600px){
+      .j-types-grid,.j-offer-grid{grid-template-columns:1fr}
     }
   </style>
 </head>
@@ -63,74 +115,187 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <div class="jingles-hero">
+  <!-- ── Hero ── -->
+  <div class="j-hero">
     <div class="container">
       <h1>Radio Jingles &amp; Audio Branding</h1>
       <p>Bespoke, professionally sung jingles that make your brand unforgettable on air — produced in Torquay since 1996.</p>
+      <div class="btn-group">
+        <a href="tel:01803322699" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.65)">Call 01803 322699</a>
+        <a href="mailto:Doc@radiojingles.com?subject=Jingle%20Enquiry" class="btn" style="background:#2da9ff;color:#fff">Get a Quote</a>
+      </div>
     </div>
   </div>
 
-  <!-- Main content -->
-  <section class="jingles-page">
+  <!-- ── Stats ── -->
+  <div class="j-stats">
+    <div class="container">
+      <div class="j-stat">
+        <strong>200+</strong>
+        <span>Radio commercials produced every month</span>
+      </div>
+      <div class="j-stat">
+        <strong>30 Years</strong>
+        <span>Experience in UK radio production</span>
+      </div>
+      <div class="j-stat">
+        <strong>Every 2 min</strong>
+        <span>One of our productions plays somewhere on UK radio</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Intro + Jingle types ── -->
+  <section class="j-intro">
     <div class="container">
 
-      <!-- Left: Advertising Jingles + What we do -->
-      <div class="jingles-main">
+      <div class="j-intro-text">
         <a href="/" class="page-back">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
           Back to Home
         </a>
+        <h2>Radio Jingles Ltd Online</h2>
+        <p>We specialise in radio advertising jingles, sonic idents and creative voiced commercial production for radio stations all over the UK.</p>
+        <p>We are a Torquay based Jingle and Commercial Production Company. We produce custom sung jingles for advertisers and radio stations. Our professionally voiced advertisements are crafted and put together in our fully-equipped studios.</p>
+        <p>Our pool of professional voice talents are at the top of their profession and offer a wide variety of voice styles. We use some of the most creative musicians in the UK.</p>
+        <p>Radio Jingles Ltd are proud to say that every two minutes one of our productions is being broadcast somewhere on UK radio, and on average we produce just over 200 radio commercials every month for many radio stations across the UK.</p>
 
-        <h2>Advertising Jingles</h2>
-        <p>Bespoke Jingles, Specialist Jingles, Jingles for Radio broadcast, Jingles for Television and Jingles for Webvertising is what we do best.</p>
-        <p>Make your products or services sell with a jingle especially made with your Company in mind.</p>
-        <p>Jingle production or branding identity.</p>
-        <p>What better way to get your company known.</p>
-        <p>A sung slogan with your company name can last for decades and could really make you famous.</p>
-        <p>Whether its cheesy or corporate, we'll make it memorable.</p>
-
-        <div style="margin-top:40px">
-          <h2>What We Do</h2>
-          <p>We love making your company and its products interesting and appealing to radio audiences in the UK.</p>
-          <p>We produce creative commercials using the finest voices available, dynamic sound effects as used on TV and films across the globe, and high quality music beds.</p>
-          <p>We have modern fully-equipped recording studios, using high-end microphones and processing technology, fully-skilled, experienced producers, and in our opinion the best creative writers in the business.</p>
+        <div style="margin-top:36px">
+          <h2>Advertising Jingles</h2>
+          <p>Bespoke jingles, specialist jingles, jingles for radio broadcast, television and webvertising — it's what we do best. Make your products or services sell with a jingle especially made with your company in mind.</p>
+          <p>A sung slogan with your company name can last for decades and could really make you famous. Whether it's cheesy or corporate, we'll make it memorable.</p>
         </div>
       </div>
 
-      <!-- Right: Jingle types -->
-      <div class="jingles-types">
-        <div class="jingle-type">
-          <h3>Product Jingles</h3>
-          <p>To get your product or your Company name broadcast in a memorable way, Radio Jingles Ltd is the Production House that will do it for you.</p>
-        </div>
-        <div class="jingle-type">
-          <h3>Brand Jingles</h3>
-          <p>Get your brand recognised with an instantly recognisable Brand Jingle from Radio Jingles Ltd.</p>
-        </div>
-        <div class="jingle-type">
-          <h3>Humorous Jingles</h3>
-          <p>Humour is an excellent way to get your product or Company recognised within the broadcast industry.</p>
-        </div>
-        <div class="jingle-type">
-          <h3>Cheeky Jingles</h3>
-          <p>Want something cheeky, then we do it in a top class way.</p>
-        </div>
-        <div class="jingle-type">
-          <h3>Station Idents</h3>
-          <p>Give your radio station a distinctive, professional sound with a bespoke ident package produced entirely in-house at our Torquay studios.</p>
-        </div>
-        <div class="jingle-type">
-          <h3>Corporate Jingles</h3>
-          <p>A powerful corporate jingle reinforces your brand values and makes your business instantly recognisable every time it hits the airwaves.</p>
+      <!-- Jingle type cards -->
+      <div>
+        <h2 style="font-size:1.3rem;font-weight:700;color:var(--primary);margin-bottom:20px">Types of Jingle We Produce</h2>
+        <div class="j-types-grid">
+          <div class="j-type-card">
+            <div class="j-type-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9"/><path d="M14 17H5"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg>
+            </div>
+            <h3>Product Jingles</h3>
+            <p>Get your product or company name broadcast in a memorable way that sticks in listeners' minds.</p>
+          </div>
+          <div class="j-type-card">
+            <div class="j-type-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+            </div>
+            <h3>Brand Jingles</h3>
+            <p>Get your brand recognised with an instantly recognisable brand jingle that defines your identity.</p>
+          </div>
+          <div class="j-type-card">
+            <div class="j-type-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            </div>
+            <h3>Humorous Jingles</h3>
+            <p>Humour is an excellent way to get your company recognised — we make it funny and effective.</p>
+          </div>
+          <div class="j-type-card">
+            <div class="j-type-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            </div>
+            <h3>Station Idents</h3>
+            <p>Give your radio station a distinctive, professional sound with a bespoke ident package.</p>
+          </div>
+          <div class="j-type-card">
+            <div class="j-type-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            </div>
+            <h3>Cheeky Jingles</h3>
+            <p>Want something cheeky? We do it in a top class way — bold, fun and totally on-brand.</p>
+          </div>
+          <div class="j-type-card">
+            <div class="j-type-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Corporate Jingles</h3>
+            <p>Reinforce your brand values and make your business instantly recognisable on air.</p>
+          </div>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- CTA Bar -->
-  <div class="jingles-cta-bar">
+  <!-- ── Pullquote ── -->
+  <div class="j-pullquote">
+    <div class="container">
+      <blockquote>We know how important it is for your listeners to stay tuned.</blockquote>
+    </div>
+  </div>
+
+  <!-- ── What we offer to businesses ── -->
+  <section class="j-offer">
+    <div class="container">
+      <h2>What We Offer to Businesses</h2>
+      <p class="lead">To be a better and more competitive marketer in today's busy world, it is imperative that your radio commercial is heard. Advertising commercials create a unique sensory identification of your product inside your customer's head — and the right radio commercial captures potential customers' attention with each play.</p>
+
+      <div class="j-offer-grid">
+        <div class="j-offer-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+          </div>
+          <h3>Quality of Vocals</h3>
+          <p>We work with hundreds of top UK voiceover artists to ensure every production sounds fresh, distinctive and broadcast-ready.</p>
+        </div>
+        <div class="j-offer-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <h3>Quality of Music</h3>
+          <p>Dynamic music beds, sound effects as used on TV and films across the globe — all produced in-house at our Torquay studios.</p>
+        </div>
+        <div class="j-offer-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
+          </div>
+          <h3>Lyric Memorability</h3>
+          <p>We "hook" your audience with lyrics custom created for maximum impact around your core marketing message.</p>
+        </div>
+        <div class="j-offer-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Quality Composition</h3>
+          <p>Our experienced music producers create compositions to remember — from catchy melodies to polished orchestral arrangements.</p>
+        </div>
+        <div class="j-offer-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3>Demographic Relatability</h3>
+          <p>We help you discover your USP and communicate it in a way that resonates with your target audience — every time.</p>
+        </div>
+        <div class="j-offer-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Fast Turnaround</h3>
+          <p>We can turn scripts around and produce commercials at the drop of a hat — so you hit your deadlines and your targets.</p>
+        </div>
+      </div>
+
+      <div class="j-offer-body">
+        <div class="j-offer-body-text">
+          <h3>We Find Your Unique Voice</h3>
+          <p>When you have a product or service to sell and only have a minute or less airtime, we use music and advertising lyrics to set the stage — because nothing can instantly grab attention and then stick in the customer's memory like a great commercial production.</p>
+          <p>We enable "Hooking" your audience with music and lyrics that are custom created for maximum impact around your core marketing message. We help you discover your special ingredient or USP that separates you from the pack, then we spice it up and serve it in a way listeners will not forget.</p>
+        </div>
+        <div class="j-offer-body-text">
+          <h3>True Success in Radio Advertising</h3>
+          <p>True success is predicated on merging great musicianship with advertising know-how, and that's exactly why we are the jingle company you want and need.</p>
+          <p>Radio Jingles Ltd will produce for you a production that provides a short repetitive rhyme scheme, a simple tune and a message that's on brand — and will deliver quality impressions like almost nothing else can.</p>
+          <p>Whether you need a bespoke jingle, a multi-voice script, new characters, straight reads, commercials with gravitas, quirky ideas, comedy ads or brand idents — we can deliver.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CTA bar ── -->
+  <div class="j-cta">
     <div class="container">
       <h2>Ready to Get Your Jingle Made?</h2>
       <p>Call us today or drop us an email — we'll get back to you quickly with a no-obligation quote.</p>
