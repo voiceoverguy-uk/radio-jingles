@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "n5wVF2Ch-qO29I4yaBaBY"
+uri = "file://public/images/og-image.png"
+type = "image"
+title = "Twitter / OG Card (1200×630)"
