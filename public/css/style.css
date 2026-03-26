@@ -63,7 +63,7 @@ a:hover{text-decoration:underline}
 .clients-label{text-align:center;font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:0 0 14px}
 .clients-track{display:flex;width:max-content}
 .clients-slide{display:flex;align-items:center;gap:64px;padding:0 32px;animation:ticker-scroll 42s linear infinite}
-.clients-slide img{height:200px;width:auto;max-width:300px;object-fit:contain;opacity:.9;transition:opacity .3s}
+.clients-slide img{height:160px;width:auto;max-width:240px;object-fit:contain;opacity:.9;transition:opacity .3s}
 .clients-slide img:hover{opacity:1}
 .clients-ticker:hover .clients-slide{animation-play-state:paused}
 @keyframes ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
