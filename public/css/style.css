@@ -119,7 +119,7 @@ a:hover{text-decoration:underline}
 
 /* Contact */
 .contact-section{background:var(--white)}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:stretch}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
 .contact-info h3{font-size:1.2rem;font-weight:600;color:var(--primary);margin-bottom:20px}
 .contact-info-item{display:flex;align-items:flex-start;gap:12px;margin-bottom:20px}
 .contact-info-item svg{width:22px;height:22px;color:var(--accent);flex-shrink:0;margin-top:2px}
