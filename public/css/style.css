@@ -64,11 +64,11 @@ a:hover{text-decoration:underline}
 .hero-credibility-line{margin-top:18px;font-size:.95rem;line-height:1.5;color:rgba(255,255,255,.78)}
 .clients-ticker{overflow:hidden;background:#f0f4fb;border-top:1px solid #dde5f0;border-bottom:1px solid #dde5f0;padding:10px 0 20px}
 .clients-label{text-align:center;font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:0 0 14px}
-.clients-track{display:flex;width:max-content}
-.clients-slide{display:flex;align-items:center;gap:64px;padding:0 32px;animation:ticker-scroll 21s linear infinite}
+.clients-track{display:flex;width:max-content;animation:ticker-scroll 28s linear infinite}
+.clients-slide{display:flex;align-items:center;gap:64px;padding:0 32px;flex-shrink:0}
 .clients-slide img{height:160px;width:auto;max-width:240px;object-fit:contain;opacity:.9;transition:opacity .3s}
 .clients-slide img:hover{opacity:1}
-.clients-ticker:hover .clients-slide{animation-play-state:paused}
+.clients-ticker:hover .clients-track{animation-play-state:paused}
 @keyframes ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 
