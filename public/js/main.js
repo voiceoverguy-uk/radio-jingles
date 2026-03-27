@@ -47,8 +47,17 @@ const audioDemos = [
   {
     title: "Builders Beams 4U – Single Beam to Full Structure",
     meta: "Commercial",
-    file: "builders-beams-4u.mp3",
-    hidden: true
+    file: "builders-beams-4u.mp3"
+  },
+  {
+    title: "Mattressman – Imagine",
+    meta: "Commercial",
+    file: "mattressman-imagine.mp3"
+  },
+  {
+    title: "Squires Garden Centres – Spring 2026",
+    meta: "Commercial",
+    file: "squires-spring-2026.mp3"
   }
 ];
 
