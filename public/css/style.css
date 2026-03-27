@@ -110,6 +110,14 @@ a:hover{text-decoration:underline}
 .about-section .container{position:relative;z-index:2}
 .about-content{max-width:720px;margin:0 auto;text-align:center}
 .about-content p{font-size:1.05rem;color:#475569;margin-bottom:20px;line-height:1.8}
+.mission-section{background:linear-gradient(135deg,#0f2460 0%,#1f3c88 55%,#163070 100%);padding:80px 0;text-align:center}
+.mission-label{font-size:.75rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#7fb3ff;margin-bottom:28px}
+.mission-body{font-size:1.1rem;color:rgba(255,255,255,.85);max-width:760px;margin:0 auto 40px;line-height:1.85}
+.mission-quote{font-size:clamp(1.4rem,3vw,2rem);font-weight:800;color:#fff;max-width:680px;margin:0 auto 48px;line-height:1.35;font-style:normal;border:none;padding:0;position:relative}
+.mission-quote::before{content:"";display:block;width:48px;height:4px;background:var(--accent);border-radius:2px;margin:0 auto 24px}
+.mission-pillars{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.mission-pillar{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#fff;font-size:.9rem;font-weight:600;padding:12px 22px;border-radius:999px;backdrop-filter:blur(4px)}
+.mission-pillar svg{flex-shrink:0;opacity:.85}
 .trust-bullets{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:24px;margin-top:28px}
 .trust-bullets li{display:flex;align-items:center;gap:8px;font-size:.95rem;font-weight:500;color:var(--primary)}
 .trust-bullets li svg{width:20px;height:20px;color:var(--accent);flex-shrink:0}
