@@ -1,33 +1,53 @@
 const audioDemos = [
   {
-    title: "Harpers Furniture – Summer Sale",
-    meta: "Commercial Demo",
-    file: "Harpers Furniture - Summer Sale - MANY - 070616.mp3"
+    title: "Wilco – Anniversary Deals",
+    meta: "Commercial",
+    file: "wilco-anniversary-deals.mp3"
   },
   {
-    title: "Crayford & Abs – The Smart Choice",
-    meta: "Commercial Demo",
-    file: "Crayford and Abs the smart choice 02-11-16.mp3"
+    title: "Wensom Caravans – With a Smile",
+    meta: "Commercial",
+    file: "wensom-caravans.mp3"
   },
   {
-    title: "Choice Carpets",
-    meta: "Commercial Demo",
-    file: "ChoiceCarpets.mp3"
+    title: "Trago Mills – Kitchen Sale 2025",
+    meta: "Commercial",
+    file: "trago-kitchen-sale.mp3"
   },
   {
-    title: "John Parker Fixings – We're The Best",
-    meta: "Commercial Demo",
-    file: "John Parker Fixings -We're the best - 091116.mp3"
+    title: "Tamar Security – Home & Business Protection",
+    meta: "Commercial",
+    file: "tamar-security.mp3"
   },
   {
-    title: "Macmillan Cancer Support – Brighton Marathon",
-    meta: "Charity Commercial",
-    file: "Macmillan Cancer Support - Brighton Marathon - 180214.mp3"
+    title: "Inter-Line – Cheap as Chips",
+    meta: "Jingle",
+    file: "inter-line-cheap-as-chips.mp3"
   },
   {
-    title: "Leslie Bike Shop",
-    meta: "Commercial Demo",
-    file: "Leslie Bike Shop.mp3"
+    title: "GHA – Stop Smoking",
+    meta: "Commercial",
+    file: "gha-stop-smoking.mp3"
+  },
+  {
+    title: "Floor 24 – Jingle",
+    meta: "Jingle",
+    file: "floor-24-jingle.mp3"
+  },
+  {
+    title: "D&G Autocare – Really Care",
+    meta: "Jingle",
+    file: "d-and-g-autocare.mp3"
+  },
+  {
+    title: "CY Sheet Metals – What What?",
+    meta: "Jingle",
+    file: "cy-sheet-metals.mp3"
+  },
+  {
+    title: "Builders Beams 4U – Single Beam to Full Structure",
+    meta: "Commercial",
+    file: "builders-beams-4u.mp3"
   }
 ];
 
