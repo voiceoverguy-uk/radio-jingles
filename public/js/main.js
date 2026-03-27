@@ -185,3 +185,24 @@ function initContactForm() {
       });
   });
 }
+
+// Randomise client logo order on every page load
+(function () {
+  var slides = document.querySelectorAll(".clients-slide");
+  if (!slides.length) return;
+
+  var imgs = Array.from(slides[0].querySelectorAll("img"));
+  for (var i = imgs.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = imgs[i]; imgs[i] = imgs[j]; imgs[j] = tmp;
+  }
+
+  slides.forEach(function (slide) {
+    imgs.forEach(function (img) {
+      slide.appendChild(img.cloneNode(true));
+    });
+    Array.from(slide.querySelectorAll("img")).slice(0, -imgs.length).forEach(function (old) {
+      slide.removeChild(old);
+    });
+  });
+}());
