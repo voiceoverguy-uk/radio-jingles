@@ -47,7 +47,8 @@ const audioDemos = [
   {
     title: "Builders Beams 4U – Single Beam to Full Structure",
     meta: "Commercial",
-    file: "builders-beams-4u.mp3"
+    file: "builders-beams-4u.mp3",
+    hidden: true
   }
 ];
 
@@ -70,6 +71,7 @@ function renderDemos() {
   const grid = document.getElementById("demos-grid");
   if (!grid) return;
   grid.innerHTML = audioDemos
+    .filter(function (demo) { return !demo.hidden; })
     .map(function (demo) {
       const encodedFile = encodeURIComponent(demo.file);
       return '<div class="demo-card">' +
@@ -80,6 +82,18 @@ function renderDemos() {
         '</div>';
     })
     .join("");
+
+  var allAudio = grid.querySelectorAll("audio");
+  allAudio.forEach(function (player) {
+    player.addEventListener("play", function () {
+      allAudio.forEach(function (other) {
+        if (other !== player) {
+          other.pause();
+          other.currentTime = 0;
+        }
+      });
+    });
+  });
 }
 
 function initMobileNav() {
