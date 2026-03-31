@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
   initContactForm();
   initCopyrightYear();
   initLiveListen();
+  initVideoFacades();
 });
 
 function initCopyrightYear() {
@@ -180,6 +181,20 @@ function initLiveListen() {
   });
 
   audio.addEventListener("error", function () { reset(); });
+}
+
+function initVideoFacades() {
+  document.querySelectorAll(".video-facade").forEach(function (facade) {
+    facade.addEventListener("click", function () {
+      var id = facade.getAttribute("data-videoid");
+      var iframe = document.createElement("iframe");
+      iframe.src = "https://www.youtube.com/embed/" + id + "?autoplay=1";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allowFullscreen = true;
+      iframe.style.cssText = "position:absolute;top:0;left:0;width:100%;height:100%;border:0";
+      facade.parentNode.replaceChild(iframe, facade);
+    });
+  });
 }
 
 function initContactForm() {
