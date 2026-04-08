@@ -1,0 +1,286 @@
+# TASK: Add new SEO service page at /radio-jingle-production for Radio Jingles
+
+## Objective
+Create a brand-new static page at:
+
+/radio-jingle-production
+
+This page is designed to help Radio Jingles rank more strongly for the search terms:
+
+- radio jingle production
+- custom radio jingle production
+- professional radio jingle production
+- jingle production company
+- radio jingles UK
+
+The site is already getting impressions and decent early rankings for "radio jingle production", so this page should be treated as a serious commercial landing page designed to strengthen relevance, internal linking, and conversion.
+
+This must NOT be a thin SEO page.
+It must feel like a genuine premium service page written for real clients.
+
+Match the existing Radio Jingles site design, spacing, typography, header, footer, colour palette, responsive behaviour, and page-building conventions already used in this project.
+
+---
+
+## Core SEO Intent
+We want this page to rank for phrases such as:
+
+- radio jingle production
+- professional radio jingle production
+- custom radio jingle production
+- radio jingle company
+- jingle production company
+- bespoke radio jingles
+- branded radio jingles
+- radio station jingle production
+- advertising jingle production
+
+Do NOT keyword stuff.
+Do NOT write repetitive AI-sounding copy.
+Do NOT duplicate other service pages too closely.
+
+Use natural related phrasing throughout.
+
+---
+
+## URL
+Create the page at exactly:
+
+/radio-jingle-production
+
+Make sure it is fully routable and indexable like the other main service pages.
+
+---
+
+## Metadata
+Create strong page-specific metadata.
+
+### Suggested title
+Radio Jingle Production | Custom Jingles by Radio Jingles
+
+### Suggested meta description
+Professional radio jingle production for stations, brands and advertising campaigns. Custom jingles created by real singers, writers and producers.
+
+Also set:
+- canonical URL
+- Open Graph title and description
+- Twitter title and description
+- appropriate og:type
+- any other page-level metadata consistent with the rest of the site
+
+Keep everything in line with the existing project structure and metadata patterns.
+
+---
+
+## Content Structure
+Build a substantial long-form service page with clear sections.
+
+### 1) Hero section
+- H1: Radio Jingle Production
+- Strong intro paragraph explaining that Radio Jingles creates custom, professional jingles for radio stations, brands, promotions and advertising campaigns
+- CTA button
+- Optional support line highlighting real singers, producers and bespoke production
+
+### 2) Intro / overview section
+Explain what radio jingle production involves:
+- strategy
+- writing
+- composition
+- vocals
+- production
+- final polished delivery
+
+Make clear that a successful jingle is more than just a tune — it is part of brand identity.
+
+### 3) Why Professional Radio Jingle Production Matters
+Explain the value of professionally produced jingles:
+- stronger brand recognition
+- better listener recall
+- polished sound
+- consistency across campaigns and station imaging
+- helps brands sound credible and memorable
+- more impact than generic or low-quality audio
+
+### 4) What Radio Jingles Produces
+Include examples such as:
+- station IDs
+- sung jingles
+- sponsor idents
+- promo jingles
+- commercial jingles
+- show openers
+- brand mnemonics
+- podcast jingles
+- advertising campaigns
+
+### 5) The Production Process
+Create a useful section explaining the likely process in a client-friendly way, for example:
+- brief
+- concept / writing
+- melody / composition
+- vocals / voice
+- production / mix
+- revisions / final delivery
+
+This section should help build trust and make the service feel organised and professional.
+
+### 6) Why Choose Radio Jingles
+Position the company as:
+- experienced
+- creative
+- professional
+- easy to work with
+- reliable
+- capable of producing broadcast-ready custom work
+- focused on original human-made production, not generic template output
+
+### 7) Suitable for Different Clients
+Explain that this service suits:
+- radio stations
+- advertisers
+- brands
+- agencies
+- podcast creators
+- events and campaigns
+
+### 8) FAQ section
+Add a visible FAQ section with around 6 to 8 useful questions such as:
+- What is radio jingle production?
+- Can you create a jingle from scratch?
+- Do you use real singers?
+- Can you produce jingles for advertising campaigns?
+- Do you make jingles for radio stations and podcasts?
+- How long does the process take?
+- Can you create sung and spoken jingles?
+- What do you need from me to get started?
+
+The FAQ must be well written and genuinely useful.
+Do not pad with generic nonsense.
+
+### 9) CTA section
+Strong closing section encouraging users to get in touch about their project.
+
+---
+
+## Tone of Voice
+The copy should be:
+- professional
+- confident
+- warm
+- clear
+- experienced
+- creative
+- human
+
+Avoid:
+- cheesy sales copy
+- exaggerated hype
+- robotic SEO language
+- repetitive keyword stuffing
+- generic filler
+
+This is a premium creative production service.
+
+---
+
+## Internal Linking
+Add sensible internal links between this new page and other relevant pages on the site, where appropriate.
+
+Especially consider links to or from:
+- homepage
+- /sung-radio-jingles
+- any existing services page relevant to jingles, production, station imaging, advertising, or audio branding
+
+Use natural anchor text such as:
+- radio jingle production
+- sung radio jingles
+- custom jingles
+- advertising jingles
+
+Also add at least one internal link from an existing relevant page back to /radio-jingle-production to support discovery.
+
+Do not overdo internal links.
+
+---
+
+## Schema
+Add appropriate valid JSON-LD schema.
+
+Use a sensible combination such as:
+- WebPage
+- Service
+- FAQPage (only if the FAQ is visible on the page)
+
+Schema must match the visible content.
+Do not invent fake reviews or aggregate ratings.
+Do not add misleading markup.
+
+---
+
+## Visual / Layout Requirements
+This page must look like part of the existing Radio Jingles site.
+
+Use:
+- existing site layout conventions
+- same components where available
+- same section rhythm
+- same visual language
+- same button styling
+- same responsive behaviour
+
+If useful, include a clean benefits grid or process cards, but keep it tasteful and on-brand.
+
+---
+
+## Content Quality Guardrails
+The page must:
+- be substantial enough to support ranking
+- feel commercially useful
+- be distinct from /sung-radio-jingles
+- not read like autogenerated filler
+- include enough depth to help users understand the value of the service
+
+Do not create a weak duplicate page.
+This page is about the full professional service of producing radio jingles, not just sung jingles.
+
+---
+
+## Discovery / Indexing Support
+Ensure the page is:
+- crawlable
+- indexable
+- linked somewhere sensible
+- included in sitemap generation if the project uses a sitemap
+- not blocked by robots or noindex
+
+---
+
+## Deliverables
+After implementation, report back with:
+
+1. File(s) created or updated
+2. Final page title
+3. Final meta description
+4. Internal links added
+5. Schema added
+6. Any recommendations for future strengthening, especially if we later add audio examples, testimonials, or process details
+
+---
+
+## Extra Guidance for the Copy
+Make sure the page naturally communicates these points:
+
+- Radio jingle production is about more than writing a catchy tune
+- A good jingle becomes part of a brand or station identity
+- Radio Jingles provides a bespoke, polished and professional service
+- Projects are built with real creative input from real people
+- The end result is broadcast-ready, memorable, and tailored to the client
+- The company can create jingles for stations, advertisers, podcasts, promotions and branded campaigns
+
+---
+
+## Important
+Do not redesign the site.
+Do not alter unrelated pages beyond sensible internal link additions.
+Do not break current routing, navigation, metadata, schema, or layout.
+Keep everything aligned with the existing project conventions.
