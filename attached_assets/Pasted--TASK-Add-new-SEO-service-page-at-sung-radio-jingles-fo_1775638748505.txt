@@ -1,0 +1,263 @@
+# TASK: Add new SEO service page at /sung-radio-jingles for Radio Jingles
+
+## Objective
+Create a brand-new static page at:
+
+/sung-radio-jingles
+
+This page is designed to help Radio Jingles rank for the search term:
+
+sung radio jingles
+
+and closely related commercial-intent search phrases.
+
+The page must feel like a genuine high-quality service page, not a thin SEO page. It should match the existing Radio Jingles site design, structure, tone, header, footer, spacing, styling, and overall build quality already created in this project.
+
+---
+
+## Core SEO Intent
+We want this page to target and naturally support rankings for terms such as:
+
+- sung radio jingles
+- custom sung radio jingles
+- professional sung radio jingles
+- sung jingles for radio stations
+- radio jingle production
+- branded sung jingles
+- sung advertising jingles
+- jingle production company
+- radio jingles UK
+
+Do NOT keyword stuff.
+Do NOT write repetitive AI-sounding copy.
+Do NOT make the page thin or generic.
+
+The copy should read naturally, confidently, and professionally.
+
+---
+
+## Page Requirements
+
+### 1) URL
+Create page at exactly:
+
+/sung-radio-jingles
+
+Make sure it is indexable and included in the site routing the same way as the other main pages.
+
+---
+
+### 2) Metadata
+Create strong SEO metadata for this page.
+
+#### Suggested title
+Sung Radio Jingles | Custom Jingle Production by Radio Jingles
+
+Keep title within a sensible SEO length.
+
+#### Suggested meta description
+Professional sung radio jingles created by real singers, producers and writers. Custom-made jingles for radio stations, brands and advertising campaigns.
+
+Keep meta description strong, readable, and around standard SEO length.
+
+Also set:
+- canonical URL
+- Open Graph title/description
+- Twitter title/description
+- sensible og:type
+- page-specific social preview metadata consistent with the rest of the site
+
+---
+
+### 3) On-page content structure
+Build a strong long-form service page with proper section hierarchy.
+
+Use this structure as a guide:
+
+#### Hero section
+- Strong H1: Sung Radio Jingles
+- Short intro paragraph explaining what they are and why they work
+- Clear CTA button
+- Optional supporting line about real singers, producers and bespoke production
+
+#### Intro / overview section
+Explain:
+- what sung radio jingles are
+- why they are memorable
+- why melody helps listeners remember a brand or station
+- why sung jingles still matter in modern audio branding
+
+#### Why Sung Jingles Work section
+Cover benefits such as:
+- memorable branding
+- stronger listener recall
+- polished sound
+- emotional connection
+- perfect for station identity, sponsor tags, promotions and commercial campaigns
+
+#### Professional Production section
+Explain Radio Jingles’ professionalism:
+- experienced team
+- real singers and musicians
+- bespoke writing and composition
+- broadcast-quality production
+- tailored to client brand, format and audience
+- not off-the-shelf generic audio
+
+#### Types of Sung Radio Jingles section
+Examples of use cases:
+- station IDs
+- show openers
+- sponsor stings
+- commercial jingles
+- brand mnemonics
+- promo beds with vocals
+- podcast branding
+- event and campaign jingles
+
+#### Why Choose Radio Jingles section
+Position the company as:
+- experienced
+- creative
+- easy to work with
+- fast and reliable
+- capable of producing polished custom work for a wide range of clients
+
+#### FAQ section
+Add a genuinely useful FAQ block with around 5–7 questions such as:
+- What are sung radio jingles?
+- Why are sung jingles effective?
+- Can you create custom jingles for my brand or radio station?
+- Do you use real singers?
+- Can you produce short sung idents and sponsor tags?
+- Are sung jingles suitable for podcasts and online audio branding?
+- How do I get started?
+
+FAQs should be written properly, not as filler.
+
+#### CTA section
+Strong closing call to action encouraging enquiries.
+
+---
+
+### 4) Tone of voice
+The tone should be:
+- professional
+- confident
+- warm
+- experienced
+- creative
+- human
+
+This is a premium service business.
+Avoid corporate waffle.
+Avoid cheesy sales nonsense.
+Avoid robotic SEO copy.
+
+The page should make it clear these are professionally produced sung jingles made by real humans.
+
+---
+
+### 5) Internal linking
+Add sensible internal links from this new page to relevant existing pages on the Radio Jingles site where appropriate.
+
+Also add at least one internal link from an existing relevant page back to /sung-radio-jingles so Google can discover it properly.
+
+Good candidates might include:
+- homepage
+- main services page
+- relevant production/jingle pages already built
+
+Use natural anchor text such as:
+- sung radio jingles
+- custom jingles
+- radio jingle production
+
+Do not overdo it.
+
+---
+
+### 6) Schema
+Add appropriate JSON-LD schema for the page.
+
+Use a sensible combination such as:
+- WebPage
+- Service
+- FAQPage (only if the FAQ is visible on the page)
+
+Make sure the schema is valid and matches the visible content.
+Do not invent fake reviews or fake aggregate ratings.
+Do not add anything Google would consider misleading.
+
+---
+
+### 7) Visual/layout requirements
+Match the existing site’s visual style exactly.
+This page should feel like part of the same website, not a bolt-on.
+
+Use:
+- same header/footer
+- same typography system
+- same colour palette
+- same button styling
+- same spacing rhythm
+- same responsive behaviour
+
+If the site already has reusable section components, use them.
+
+If helpful, include tasteful visual blocks or icon-supported benefit cards, but keep it clean and not gimmicky.
+
+---
+
+### 8) Content quality guardrails
+The page must:
+- be substantial enough to rank
+- not duplicate existing page copy too closely
+- not look autogenerated
+- read like a legitimate premium service page
+- include enough depth to be useful for both users and Google
+
+Do not pad with meaningless fluff.
+Do not repeat “sung radio jingles” every other sentence like a malfunctioning salesman.
+
+Use related natural language throughout.
+
+---
+
+### 9) Discovery and indexing support
+Ensure the new page is:
+- linked in the site somewhere sensible
+- included in sitemap generation if the project uses a sitemap
+- not blocked by robots
+- fully crawlable
+
+---
+
+### 10) Deliverables
+Implement the page fully and then report back with:
+
+1. File(s) created or updated
+2. Final page title
+3. Final meta description
+4. Any internal links added to support discovery
+5. Schema added
+6. Any recommendations for future enhancement, especially if we later add audio examples or testimonials
+
+---
+
+## Extra guidance for the copy
+Make sure the page naturally communicates these ideas:
+
+- Sung radio jingles are one of the most memorable forms of audio branding
+- A strong melody can help listeners remember a station, campaign or brand far more easily
+- Radio Jingles creates bespoke sung jingles with real creative input and polished production
+- Their service is professional, custom, broadcast-ready and suitable for radio, podcasting and branded audio
+- This is not generic template work
+
+---
+
+## Important
+Do not redesign the site.
+Do not change unrelated pages beyond adding sensible internal links.
+Do not break current navigation, metadata, schema, or layout.
+Keep everything aligned with the existing project conventions.
