@@ -1,0 +1,299 @@
+# TASK: Add new SEO service page at /advertising-jingles for Radio Jingles
+
+## Objective
+Create a brand-new static page at:
+
+/advertising-jingles
+
+This page is designed to help Radio Jingles rank more strongly for search terms related to advertising jingles and commercial jingle production, including:
+
+- advertising jingles
+- commercial jingles
+- ad jingles
+- jingles for adverts
+- branded advertising jingles
+- custom advertising jingles
+- radio advertising jingles
+
+The site is already showing early impressions for "advertising jingles", but ranking is weak. This page should be built as a proper standalone commercial landing page that clearly targets that intent and helps Radio Jingles compete more strongly in Google.
+
+This must NOT be a thin SEO page.
+It must feel like a genuine premium service page, useful to real clients and consistent with the rest of the Radio Jingles website.
+
+Match the existing site design, typography, spacing, header, footer, colour palette, components, and responsive behaviour already established in this project.
+
+---
+
+## Core SEO Intent
+We want this page to rank for phrases such as:
+
+- advertising jingles
+- commercial jingles
+- ad jingles
+- jingles for adverts
+- bespoke advertising jingles
+- custom commercial jingles
+- branded audio jingles
+- radio advertising jingles
+- jingle production for adverts
+
+Do NOT keyword stuff.
+Do NOT write repetitive AI-sounding copy.
+Do NOT duplicate the other service pages too closely.
+
+Use natural related language throughout.
+
+---
+
+## URL
+Create the page at exactly:
+
+/advertising-jingles
+
+Make sure it is fully routable, indexable, and included in the site structure like the other main pages.
+
+---
+
+## Metadata
+Create strong page-specific metadata.
+
+### Suggested title
+Advertising Jingles | Custom Commercial Jingles by Radio Jingles
+
+### Suggested meta description
+Professional advertising jingles created for brands, radio campaigns and promotions. Custom commercial jingles produced by real singers, writers and producers.
+
+Also set:
+- canonical URL
+- Open Graph title and description
+- Twitter title and description
+- appropriate og:type
+- any other page-level metadata consistent with the rest of the project
+
+Keep everything aligned with the existing metadata patterns used on the site.
+
+---
+
+## Content Structure
+Build a substantial long-form service page with clear headings and genuinely useful copy.
+
+### 1) Hero section
+- H1: Advertising Jingles
+- Strong introductory paragraph explaining that Radio Jingles creates custom advertising jingles for brands, radio campaigns, promos and commercial use
+- CTA button
+- Optional supporting line about memorable branding, real singers, bespoke production and professional delivery
+
+### 2) Intro / overview section
+Explain:
+- what advertising jingles are
+- why they still work
+- how they help brands become memorable
+- why a strong melody or sung hook can improve recall compared with plain spoken messaging alone
+
+Make clear this is not old-fashioned filler — it is strategic audio branding when done properly.
+
+### 3) Why Advertising Jingles Work
+Cover benefits such as:
+- stronger brand recall
+- more memorable campaigns
+- emotional connection
+- consistency across radio and audio advertising
+- making a brand or promotion stand out
+- helping a message stick in the listener’s mind
+
+### 4) Types of Advertising Jingles
+Include use cases such as:
+- radio ad jingles
+- sung promotional hooks
+- sponsor tags
+- mnemonic brand lines
+- campaign jingles
+- local business advertising jingles
+- national campaign audio branding
+- podcast sponsor jingles
+- retail and event promo jingles
+
+### 5) Professional Production Matters
+Explain that Radio Jingles provides:
+- bespoke writing
+- melody creation
+- real singers and vocalists
+- voiceover if needed
+- polished production and mixing
+- broadcast-ready delivery
+- audio tailored to the client’s brand, audience and campaign goals
+
+Position the company as professional and human-led, not generic template churn.
+
+### 6) The Process
+Create a useful, client-friendly section that explains the likely workflow:
+- initial brief
+- creative concept
+- lyrics / message
+- composition and style
+- vocals / voice
+- production / mixing
+- revisions
+- final delivery
+
+Keep this practical and trust-building.
+
+### 7) Why Choose Radio Jingles
+Position the company as:
+- experienced
+- creative
+- easy to work with
+- reliable
+- capable of creating custom commercial jingles that sound polished and effective
+- focused on original human-made production rather than generic audio
+
+### 8) Suitable for Different Clients
+Explain that advertising jingles can work for:
+- brands
+- businesses
+- agencies
+- radio advertisers
+- retail campaigns
+- local businesses
+- podcast advertisers
+- event promoters
+
+### 9) FAQ section
+Add a visible FAQ section with around 6 to 8 useful questions such as:
+- What is an advertising jingle?
+- Are jingles still effective in advertising?
+- Can you create a custom jingle for my brand?
+- Do you use real singers?
+- Can you produce jingles for radio ads and promotions?
+- Can you make short sung hooks or sponsor tags?
+- How long does the process take?
+- What do you need from me to get started?
+
+The FAQ must be useful, well written and based on real client concerns.
+
+### 10) CTA section
+Strong closing section encouraging enquiries about advertising or promotional campaigns.
+
+---
+
+## Tone of Voice
+The page should feel:
+- professional
+- confident
+- warm
+- experienced
+- creative
+- human
+
+Avoid:
+- cheesy ad-agency waffle
+- robotic SEO text
+- exaggerated claims
+- repetitive filler
+- weak or generic copy
+
+This is a premium creative production service.
+
+---
+
+## Internal Linking
+Add sensible internal links between this new page and relevant existing pages on the site.
+
+Especially consider links to or from:
+- homepage
+- /radio-jingle-production
+- /sung-radio-jingles
+- any other relevant service page already built that relates to jingles, production, radio branding or commercial audio
+
+Use natural anchor text such as:
+- advertising jingles
+- radio jingle production
+- sung radio jingles
+- custom jingles
+- commercial jingles
+
+Also add at least one internal link from an existing relevant page back to /advertising-jingles to support discovery and indexing.
+
+Do not overdo internal links.
+
+---
+
+## Schema
+Add valid JSON-LD schema using a sensible combination such as:
+- WebPage
+- Service
+- FAQPage (only if the FAQ is visible on the page)
+
+Schema must match the visible content.
+Do not invent fake reviews, fake ratings, or misleading claims.
+
+---
+
+## Visual / Layout Requirements
+This page must look like a natural part of the existing Radio Jingles site.
+
+Use:
+- existing layout conventions
+- same section rhythm
+- same typography
+- same button styles
+- same colour palette
+- same responsive behaviour
+- same reusable components where available
+
+If useful, include a benefits grid or process cards, but keep it clean and not gimmicky.
+
+---
+
+## Content Quality Guardrails
+The page must:
+- be substantial enough to support ranking
+- feel commercially useful
+- be clearly distinct from /radio-jingle-production and /sung-radio-jingles
+- read like a real premium service page
+- explain why advertising jingles are useful and how Radio Jingles delivers them professionally
+
+Do not create a duplicate page with only minor wording changes.
+Do not make this page about general radio jingles — keep it focused on advertising and commercial use.
+
+---
+
+## Discovery / Indexing Support
+Ensure the page is:
+- crawlable
+- indexable
+- linked somewhere sensible
+- included in sitemap generation if the project uses a sitemap
+- not blocked by robots or noindex
+
+---
+
+## Deliverables
+After implementation, report back with:
+
+1. File(s) created or updated
+2. Final page title
+3. Final meta description
+4. Internal links added
+5. Schema added
+6. Any recommendations for future strengthening, especially if we later add audio examples, testimonials or campaign examples
+
+---
+
+## Extra Guidance for the Copy
+Make sure the page naturally communicates these ideas:
+
+- Advertising jingles can make campaigns far more memorable
+- A strong sung or melodic hook helps listeners remember a brand, product or offer
+- Radio Jingles creates bespoke commercial jingles with real creative input from real people
+- Their service is polished, professional and tailored to the client’s campaign
+- Advertising jingles can work for radio, podcasting, promotions, events and broader audio branding
+- This is custom production, not generic off-the-shelf audio
+
+---
+
+## Important
+Do not redesign the site.
+Do not change unrelated pages beyond sensible internal link additions.
+Do not break current routing, navigation, metadata, schema or layout.
+Keep everything aligned with the existing project conventions.

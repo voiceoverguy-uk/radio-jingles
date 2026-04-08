@@ -4,6 +4,7 @@
 Professional website for Radio Jingles Ltd, a UK radio jingle & commercial production company based in Torquay, Devon. Single-page site with audio demos, services, studio photos, YouTube videos, meet the team, and contact section.
 
 ## Recent Changes
+- 2026-04-08: Added `/radio-jingle-production` SEO page — full hero, stats, 2-col intro, 8-card what-we-produce grid, pullquote, 6-card why-professional-matters, 6-step process cards, 6-card who-we-work-with, why-choose-us pills, 7 FAQ items, CTA; nav + footer updated on all pages; sitemap updated; cross-links with /sung-radio-jingles
 - 2026-04-08: Added `/sung-radio-jingles` SEO page — full hero, stats, intro, 8 jingle types, pullquote, 6-card production grid, why-choose-us, 7 FAQ items, CTA; nav updated on all pages; sitemap updated; internal link from /jingles body
 - 2026-03-10: Redesigned team section with real photos, roles & bios; updated About copy; polished audio demo cards; added Listen Live button for Torbay Radio; animated nav hover underline
 - 2026-02-22: Added Radio Jingles banner to hero, added Torbay Radio section with logo, fixed Paula name in team
@@ -18,13 +19,18 @@ Professional website for Radio Jingles Ltd, a UK radio jingle & commercial produ
 
 ### File Structure
 ```
-server.js              - Express server
+server.js                          - Express server
 public/
-  index.html           - Main single-page site
-  css/style.css        - All styles
-  js/main.js           - Client-side JS (audio demos, contact form, nav)
-  audio/               - MP3 demo files go here
-  images/              - Studio photos and OG image go here
+  index.html                       - Main single-page site
+  jingles.html                     - Jingles services sub-page (/jingles)
+  sung-radio-jingles.html          - SEO page (/sung-radio-jingles)
+  radio-jingle-production.html     - SEO page (/radio-jingle-production)
+  terms.html                       - Terms & Conditions (/terms)
+  css/style.css                    - All styles
+  js/main.js                       - Client-side JS (audio demos, nav)
+  audio/                           - MP3 demo files
+  images/                          - Studio photos and OG image
+  sitemap.xml                      - XML sitemap (all pages)
 ```
 
 ### How to Add New Demos
