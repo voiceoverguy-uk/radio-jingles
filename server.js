@@ -59,6 +59,10 @@ app.get('/radio-jingle-production', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'radio-jingle-production.html'));
 });
 
+app.get('/advertising-jingles', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'advertising-jingles.html'));
+});
+
 app.get('/terms', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'terms.html'));
 });
