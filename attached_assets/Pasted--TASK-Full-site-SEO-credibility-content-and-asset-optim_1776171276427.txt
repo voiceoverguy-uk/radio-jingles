@@ -1,0 +1,457 @@
+# TASK: Full-site SEO, credibility, content and asset optimisation pass for Radio Jingles
+
+## Objective
+Carry out a full review and upgrade of the Radio Jingles website so it becomes more credible, more search-friendly, better internally linked, and more aligned with the real-world service details provided directly by the Radio Jingles team.
+
+This is NOT a redesign task.
+Do NOT radically change the look and feel.
+Do NOT break the current layout, navigation, styling, routing, demos, forms, or page structure unless a change clearly improves usability and SEO.
+
+This is a focused full-site optimisation pass covering:
+- content quality
+- homepage messaging
+- service-page copy
+- internal linking
+- metadata
+- schema
+- image optimisation
+- ALT text
+- sitemap consistency
+- performance-related image format checks
+- credibility improvements using the team’s real answers
+
+---
+
+## Current Known URL Set
+The site currently includes these core URLs and they must remain intact:
+
+- /
+- /jingles
+- /sung-radio-jingles
+- /radio-jingle-production
+- /advertising-jingles
+- /terms
+
+Treat these as the core sitemap structure unless the existing codebase contains additional valid pages already in use.
+
+Do NOT invent random new URLs in this task.
+Focus on strengthening the current site.
+
+---
+
+## Main SEO Goal
+Strengthen the site’s visibility, relevance and credibility around these service themes:
+
+- radio jingles
+- sung radio jingles
+- radio jingle production
+- advertising jingles
+- voiced radio commercials
+- station idents
+- sponsor tags
+- audio branding
+- custom jingles
+- commercial radio production
+
+Make the site clearly communicate that Radio Jingles is an established, human-led, professional production team creating bespoke radio commercials and jingles.
+
+---
+
+## Real Team Information to Integrate Into the Site
+Use the following real service details throughout the site where appropriate, naturally and without stuffing:
+
+### Core service truths
+- Radio commercial production includes both spoken commercials and sung jingles
+- Sung jingles often combine music, vocals and voiceover
+- Spoken commercials may include sound effects
+- Both are designed to be memorable and emotionally engaging
+- Everything is created from scratch: concept, lyrics, composition and production
+- The team includes full-time musicians and creative writers
+- They use real singers, vocalists, composers and producers
+- They tailor each jingle to the client’s brand, audience and goals
+- They produce sponsor tags, idents, intros, promos and other audio assets
+- They create work for radio stations, brands, agencies, podcasts, streaming and digital campaigns
+- They can match an existing station sound or create something completely fresh
+- They offer both male and female vocals
+- They can create harmonies and layered vocals
+- They can combine sung and spoken sections
+
+### Process / delivery truths
+- Clients can come with just a rough idea
+- The team helps shape that into a creative concept
+- Typical process: brief -> concept -> scripting -> composition -> recording -> production -> mixing -> delivery
+- For spoken commercials, script revisions are free until approval before production
+- Work is checked for Radiocentre Clearance compliance where appropriate
+- Final files are delivered as WAV and/or MP3
+- Final audio is broadcast-ready and professionally mixed/mastered
+- Spoken commercials can sometimes go from brief to broadcast in 2 days if script approval is immediate
+- Most sung jingle projects take around 5–10 working days depending on complexity and feedback
+- Urgent fast-turnaround work can be prioritised
+
+### Licensing / commercial truths
+- Sung jingles are licensed for 2 years
+- Partially sung commercials allow spoken inserts to be updated during the licence period
+- Spoken commercials are licensed for 1 year
+- Licensing can extend to other stations and additional years
+- Usage affects pricing
+- They can also support direct clients with airtime buying and full campaign production
+
+### Positioning / trust truths
+- Established in 1996
+- Bespoke production
+- Real singers, real writers, real producers
+- Premium, radio-ready sound
+- Work with radio stations, agencies, brands and content creators
+- Work with local, national and international clients
+- Strong on originality, musicality, brand alignment and memorability
+
+IMPORTANT:
+Use these truths where they fit naturally.
+Do NOT dump them all into one paragraph like a panicked salesman.
+
+---
+
+## Part 1: Homepage Review and Improvement
+
+### Review the homepage thoroughly
+Audit the homepage hero, supporting copy, service summary, trust signals, CTA areas and section flow.
+
+### Improve the homepage so it more clearly communicates:
+- Radio Jingles creates both voiced commercials and sung jingles
+- The company offers radio jingle production, advertising jingles, sponsor tags, station idents and audio branding
+- Work is bespoke and human-made
+- The team uses real singers, writers and producers
+- The company has been producing radio commercials and jingles since 1996
+- Audio is broadcast-ready and professionally produced
+
+### Homepage content goals
+The homepage should feel:
+- more authoritative
+- more credible
+- clearer in what the company actually does
+- better aligned with the service pages
+- more commercially persuasive without becoming spammy
+
+### Tighten vague copy
+If any homepage copy is currently thin, generic or repetitive, strengthen it.
+
+Examples of things that may need improving:
+- generic service blurbs
+- missed mention of spoken + sung production
+- missed mention of bespoke process
+- weak trust language
+- homepage sections not pulling their SEO weight
+
+### Keep the current visual style
+Do not redesign the homepage.
+Improve the wording, internal links, hierarchy and clarity.
+
+---
+
+## Part 2: Service Page Content Upgrades
+
+### Review and strengthen:
+- /jingles
+- /sung-radio-jingles
+- /radio-jingle-production
+- /advertising-jingles
+
+### Requirements per page
+Ensure each page has:
+- clear unique intent
+- strong H1
+- strong intro paragraph
+- useful body copy
+- no thin filler sections
+- no duplicated copy from other service pages
+- natural internal links to related pages
+- relevant CTA copy
+- enough detail to feel premium and credible
+
+### Intent separation
+Keep the page purposes clearly distinct:
+
+#### /jingles
+Broad main jingle service page covering custom jingles, station idents, sponsor tags, voiced and sung options, and the wider offer.
+
+#### /sung-radio-jingles
+Focus on sung jingles, vocals, memorable hooks, melody-led branding, harmonies, male/female vocals, fully sung vs partially sung formats.
+
+#### /radio-jingle-production
+Focus on full-service production: concept, writing, composition, recording, mixing, delivery, licensing, professional production workflow.
+
+#### /advertising-jingles
+Focus on commercial and promotional use: brand recall, campaign use, radio ads, sponsor hooks, local and national businesses, agencies, podcasts, digital campaigns.
+
+### Add/upgrade useful sections where appropriate
+Where page templates allow, include useful sections such as:
+- How It Works
+- Why Choose Radio Jingles
+- Who We Work With
+- Delivery Formats
+- Turnaround Times
+- Creative Options
+- Licensing / Usage
+- Related Services
+- FAQ
+
+Do this tastefully.
+Do NOT overstuff every page with every section if it hurts readability.
+
+---
+
+## Part 3: FAQ Content and FAQPage Schema
+
+### Build or strengthen visible FAQ sections
+Using the team’s real answers, create or improve genuinely useful FAQ content on the most relevant pages.
+
+FAQ candidates include:
+- What is a radio jingle?
+- What is included in radio jingle production?
+- Do you create both sung and spoken radio commercials?
+- Do you create everything from scratch?
+- Do you use real singers and producers?
+- How long does radio jingle production take?
+- Can you work to a tight deadline?
+- What files do you deliver?
+- Can you create jingles for podcasts and online audio branding?
+- Can you match our existing station sound?
+- Can you create something completely fresh?
+- Can spoken inserts be updated in a partially sung commercial?
+- How does licensing work?
+- What do you need from me to get started?
+
+### Important
+Only add FAQPage schema where the FAQ is visibly on the page.
+Do not mark up hidden or non-visible FAQs.
+
+---
+
+## Part 4: Internal Linking Audit and Upgrade
+
+### Audit internal linking across the whole site
+Check how the homepage and service pages currently link to one another.
+
+### Improve internal linking so:
+- homepage supports the core service pages clearly
+- /jingles links naturally to /sung-radio-jingles, /radio-jingle-production and /advertising-jingles
+- the 3 service pages link to each other where relevant
+- important service phrases are used naturally in anchor text
+- internal links feel helpful to users, not forced for SEO
+
+### Navigation / homepage anchor review
+The navigation currently jumps to sections on the homepage as well as linking to the 3 newer service pages.
+Review this carefully.
+
+Make sure:
+- nav behaviour is clean and not confusing
+- there are no awkward duplicate destinations
+- homepage anchor links still work properly if they are meant to
+- service-page links are not being undercut by homepage jumps
+- the final nav structure makes sense for both users and SEO
+
+Tidy the nav if needed, but do not create unnecessary bloat.
+
+---
+
+## Part 5: Metadata Audit
+
+### Audit every core page for:
+- title tags
+- meta descriptions
+- canonical tags
+- Open Graph tags
+- Twitter tags
+
+### Requirements
+Each page must have:
+- a unique title
+- a unique meta description
+- sensible length
+- no duplication across service pages
+- wording that supports its specific search intent
+- alignment with on-page copy
+
+### Suggested direction
+Use clear professional wording, not keyword soup.
+
+Examples of page intent:
+- homepage: broad authority / radio commercials and jingles since 1996
+- /jingles: custom jingles and station idents
+- /sung-radio-jingles: sung radio jingles
+- /radio-jingle-production: full production service
+- /advertising-jingles: commercial jingles for brands and campaigns
+
+Do not blindly use these exact lines if the current implementation needs better phrasing. Use your judgement.
+
+---
+
+## Part 6: Schema Audit
+
+### Audit and improve schema across the site
+Review all existing schema and fix or improve it where needed.
+
+### Add or refine valid schema types such as:
+- Organization
+- WebSite
+- WebPage
+- Service
+- FAQPage (only where visible FAQs exist)
+- BreadcrumbList if appropriate in the current site structure
+
+### Organization schema should support credibility
+Include accurate high-level details such as:
+- company name
+- website
+- logo
+- contact details if already public on site
+- address if already public on site
+- sameAs only if real profiles exist and are already part of the brand footprint
+
+### Important
+- Do NOT invent ratings or reviews
+- Do NOT add misleading markup
+- Do NOT create invalid schema
+- Ensure schema matches visible page content
+
+---
+
+## Part 7: Image Audit, ALT Text and Performance
+
+### Audit all images used across the site
+Check all major page images, logos, cards, banners, studio images, team images and decorative/service images.
+
+### For each image, review:
+- filename quality
+- format
+- dimensions
+- compression
+- whether it should be WEBP
+- ALT text quality
+- whether it is actually needed
+- whether it is oversized
+
+### Requirements
+- Convert suitable raster images to WEBP where this improves performance and does not visibly degrade quality
+- Keep transparency where needed
+- Do not break image references
+- Update code paths if formats change
+- Ensure logo or UI assets are not damaged in the process
+- Add or improve meaningful ALT text for informative images
+- Decorative images should use empty alt where appropriate
+- Do not stuff ALT text with keywords
+
+### ALT text guidance
+ALT text should describe the image properly and naturally, for example:
+- radio studio mixing desk
+- vocalist microphone in recording booth
+- Radio Jingles logo
+- branded client logo carousel
+- Torbay Radio logo
+- audio demo card image if visually meaningful
+
+### Performance
+- Reduce oversized images where possible
+- Avoid shipping unnecessarily huge assets
+- Keep page quality strong while improving speed
+
+---
+
+## Part 8: Credibility Upgrades
+
+### Strengthen trust signals using real team info
+Look for natural places to reinforce:
+- Established in 1996
+- real singers, writers and producers
+- bespoke production
+- broadcast-ready delivery
+- WAV and MP3 delivery
+- fast turnaround
+- work for stations, brands, agencies and digital campaigns
+- local to international clients
+- original human-made creative work
+
+### Good places for this may include:
+- homepage hero support line
+- homepage trust row
+- /about content
+- service page “Why Choose Us” sections
+- contact page support copy
+- demo page intro
+- CTA blocks
+
+Do this with restraint and good taste.
+Make the site sound more established and professional, not louder.
+
+---
+
+## Part 9: Contact / Conversion Review
+
+### Review contact-related wording
+Check the contact page and CTA wording across the site.
+
+Make sure the site encourages contact in a confident, professional way.
+
+Consider whether some CTA copy could be improved by referencing:
+- rough ideas welcome
+- fast turnaround available
+- broadcast-ready production
+- sung or spoken options
+- campaign support available
+
+Do not overcomplicate forms or contact flow in this task.
+
+---
+
+## Part 10: Sitemap and Crawlability Review
+
+### Check sitemap and crawlability
+Ensure the sitemap is consistent with the current core pages.
+Ensure all important service pages are indexable and linked.
+Check for obvious noindex mistakes or crawl blockers.
+
+If sitemap generation is hard-coded, update it if necessary.
+If it is already correct, leave it alone.
+
+---
+
+## Part 11: Deliverables
+
+After finishing, provide a clear report including:
+
+1. Files updated
+2. Copy improved on homepage and each service page
+3. FAQ content added or improved
+4. Internal linking changes made
+5. Metadata changes made page by page
+6. Schema changes made page by page
+7. Image/ALT/WEBP changes made
+8. Navigation changes made, if any
+9. Any weak areas still needing content from the client
+10. Any recommendations for the next SEO/content pass
+
+---
+
+## Guardrails
+- Do NOT redesign the site
+- Do NOT break existing demos, contact flow or page routing
+- Do NOT remove useful existing content unless replacing it with something stronger
+- Do NOT stuff keywords unnaturally
+- Do NOT make every page sound the same
+- Do NOT invent fake trust signals, client claims, awards or reviews
+- Do NOT create invalid schema
+- Do NOT add thin placeholder copy
+- Keep all work consistent with the existing Radio Jingles branding and build
+
+---
+
+## Success Criteria
+Done looks like:
+- the site sounds more credible, more established and more human
+- homepage copy is clearer and stronger
+- the core service pages are more distinct and more useful
+- internal linking creates a clear topical cluster
+- titles, descriptions and schema are stronger and more accurate
+- images are better optimised and correctly tagged
+- the site better reflects the real answers provided by the Radio Jingles team
+- the whole site feels more joined-up, professional and search-ready
