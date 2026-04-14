@@ -105,7 +105,7 @@ a:hover{text-decoration:underline}
 .photo-card .caption{padding:14px 18px;font-size:.9rem;color:#64748b;text-align:center;font-weight:500}
 
 /* About */
-.about-section{position:relative;background:url('/images/music-score-radio-jingles.jpg') center/cover no-repeat}
+.about-section{position:relative;background:url('/images/music-score-radio-jingles.jpg') center/cover no-repeat;background:image-set(url('/images/music-score-radio-jingles.webp') type('image/webp'),url('/images/music-score-radio-jingles.jpg') type('image/jpeg')) center/cover no-repeat}
 .about-section::before{content:"";position:absolute;inset:0;background:rgba(247,249,252,.88);z-index:1}
 .about-section .container{position:relative;z-index:2}
 .about-content{max-width:720px;margin:0 auto;text-align:center}
