@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | Radio Jingles Ltd</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .not-found-section {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .not-found-section h1 {
+      font-size: 6rem;
+      font-weight: 800;
+      color: #1f3c88;
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+    .not-found-section h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #1a2340;
+      margin-bottom: 16px;
+    }
+    .not-found-section p {
+      color: #555;
+      font-size: 1.05rem;
+      margin-bottom: 32px;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="nav-logo">
+        <img src="/images/radio-jingles-logo.png" alt="Radio Jingles Ltd" height="40">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a href="/jingles">Jingles</a>
+        <a href="/advertising-jingles">Advertising Jingles</a>
+        <a href="/radio-jingle-production">Production</a>
+        <a href="/sung-radio-jingles">Sung Jingles</a>
+        <a href="/#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="not-found-section">
+    <div>
+      <h1>404</h1>
+      <h2>Page Not Found</h2>
+      <p>Sorry, the page you are looking for does not exist. It may have moved or been removed.</p>
+      <a href="/" class="cta-btn">Back to Homepage</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Radio Jingles Ltd. All rights reserved. Registered in England &amp; Wales.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
